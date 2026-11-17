@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ex="http://earth.google.com/kml/ext">
+<Document>
+	<name>Wind Farm Polygon.kml</name>
+	<StyleMap id="__managed_style_16EC4CB7F94319A8D398">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_16EC4CB7F94319A8D398_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_16EC4CB7F94319A8D398_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_16EC4CB7F94319A8D398_highlight">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+		</Style>
+		<ex:extension>base64;EgIYAQ</ex:extension>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_16EC4CB7F94319A8D398_normal">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+		</Style>
+		<ex:extension>base64;EgIYAQ</ex:extension>
+	</gx:CascadingStyle>
+	<Placemark id="0AFF79E3BA430AD0C59E">
+		<name>chosen area</name>
+		<LookAt>
+			<longitude>1.243889294058622</longitude>
+			<latitude>51.36603166965222</latitude>
+			<altitude>4.55352845216324</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00000000001272</gx:fovy>
+			<range>7038.619357931893</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_16EC4CB7F94319A8D398</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						1.206860519027202,51.36446385128804,0 1.228540535625071,51.36084646145472,0 1.231326914666149,51.36188554554997,0 1.230900428385338,51.36335221424344,0 1.231327805526934,51.36484423631089,0 1.232271635958224,51.36622022749638,0 1.234157153928741,51.36720473911184,0 1.235699875038621,51.36754714218748,0 1.237311169556172,51.36773970677682,0 1.23816843336801,51.36904525549213,0 1.23998567737952,51.37011530661318,0 1.242180078810307,51.37080004683563,0 1.244278951540922,51.37099084556765,0 1.257965756297754,51.37142367570682,0 1.256980499819131,51.37685128614747,0 1.25101941585005,51.37685381922977,0 1.224173520164562,51.3787160209091,0 1.224263858984787,51.37828483960372,0 1.225127525628988,51.37738319886369,0 1.225643005910668,51.3759615509838,0 1.225426984561819,51.37490328765479,0 1.225044701109166,51.37401101384313,0 1.22547755707124,51.37160360959665,0 1.20754064599127,51.36984418480619,0 1.205743544487601,51.36788013238516,0 1.206860519027202,51.36446385128804,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
+	</Placemark>
+</Document>
+</kml>
