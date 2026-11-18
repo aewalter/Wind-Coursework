@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Wind Farm Layout</name>
+
+    <Placemark>
+      <name>Substation</name>
+      <Point>
+        <coordinates>1.2836472200000002,51.35766388999999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turbine 0</name>
+      <Point>
+        <coordinates>1.2386186682420455,51.374200389792904,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turbine 1</name>
+      <Point>
+        <coordinates>1.2345447398772313,51.377997355849175,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turbine 2</name>
+      <Point>
+        <coordinates>1.221743079306957,51.36798513100876,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turbine 3</name>
+      <Point>
+        <coordinates>1.2242492725885032,51.378416641755756,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turbine 4</name>
+      <Point>
+        <coordinates>1.2214013887064807,51.36323006966177,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turbine 5</name>
+      <Point>
+        <coordinates>1.2305781849611033,51.369792621658924,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turbine 6</name>
+      <Point>
+        <coordinates>1.2529127458563796,51.37603253585963,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turbine 7</name>
+      <Point>
+        <coordinates>1.2309379229105406,51.363223276141774,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turbine 8</name>
+      <Point>
+        <coordinates>1.2099254787188256,51.36610422741877,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cable</name>
+      <Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2836472200000002,51.35766388999999,0 1.2529127458563796,51.37603253585963,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cable</name>
+      <Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2386186682420455,51.374200389792904,0 1.2345447398772313,51.377997355849175,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cable</name>
+      <Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2386186682420455,51.374200389792904,0 1.2305781849611033,51.369792621658924,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cable</name>
+      <Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2386186682420455,51.374200389792904,0 1.2529127458563796,51.37603253585963,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cable</name>
+      <Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2345447398772313,51.377997355849175,0 1.2242492725885032,51.378416641755756,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cable</name>
+      <Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.221743079306957,51.36798513100876,0 1.2214013887064807,51.36323006966177,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cable</name>
+      <Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.221743079306957,51.36798513100876,0 1.2305781849611033,51.369792621658924,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cable</name>
+      <Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.221743079306957,51.36798513100876,0 1.2099254787188256,51.36610422741877,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cable</name>
+      <Style><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2214013887064807,51.36323006966177,0 1.2309379229105406,51.363223276141774,0</coordinates>
+      </LineString>
+    </Placemark>
+</Document>
+</kml>
