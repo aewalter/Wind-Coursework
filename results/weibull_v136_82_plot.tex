@@ -1,0 +1,33 @@
+\begin{tikzpicture}
+\begin{axis}[
+    width=\linewidth, height=8cm,
+    xlabel={Wind speed [m/s]}, ylabel={Weighted probability density [s/m]},
+    xmin=0, xmax=25, ymin=0, grid=major,
+    scaled y ticks=false, yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=3},
+    legend pos=outer north east, legend style={font=\scriptsize}]
+\addplot[color={rgb,255:red,230;green,0;blue,0}, line width=1pt] table [x=v, y=S000, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$0^\circ$ (4.7\%)}
+\addplot[color={rgb,255:red,230;green,111;blue,0}, line width=1pt] table [x=v, y=S030, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$30^\circ$ (4.9\%)}
+\addplot[color={rgb,255:red,227;green,221;blue,0}, line width=1pt] table [x=v, y=S060, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$60^\circ$ (5.7\%)}
+\addplot[color={rgb,255:red,119;green,230;blue,0}, line width=1pt] table [x=v, y=S090, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$90^\circ$ (6.5\%)}
+\addplot[color={rgb,255:red,7;green,230;blue,0}, line width=1pt] table [x=v, y=S120, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$120^\circ$ (5.1\%)}
+\addplot[color={rgb,255:red,0;green,230;blue,104}, line width=1pt] table [x=v, y=S150, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$150^\circ$ (5.0\%)}
+\addplot[color={rgb,255:red,0;green,230;blue,221}, line width=1pt] table [x=v, y=S180, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$180^\circ$ (7.6\%)}
+\addplot[color={rgb,255:red,0;green,126;blue,230}, line width=1pt] table [x=v, y=S210, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$210^\circ$ (16.9\%)}
+\addplot[color={rgb,255:red,0;green,14;blue,230}, line width=1pt] table [x=v, y=S240, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$240^\circ$ (21.1\%)}
+\addplot[color={rgb,255:red,102;green,0;blue,230}, line width=1pt] table [x=v, y=S270, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$270^\circ$ (8.2\%)}
+\addplot[color={rgb,255:red,214;green,0;blue,230}, line width=1pt] table [x=v, y=S300, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$300^\circ$ (7.9\%)}
+\addplot[color={rgb,255:red,230;green,0;blue,133}, line width=1pt] table [x=v, y=S330, col sep=comma] {weibull_v136_82_sectors.csv};
+\addlegendentry{$330^\circ$ (6.3\%)}
+\end{axis}
+\end{tikzpicture}
